@@ -1,0 +1,8 @@
+language: none
+build:
+  pre_ci_boot:
+    image_name: drydock/u16
+    image_tag: master
+    pull: false
+  ci:
+    - echo Link to https://www.shippable.com
