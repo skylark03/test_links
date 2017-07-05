@@ -7,3 +7,9 @@ build:
   ci:
     - echo Link to https://www.shippable.com
     - curl google.com
+    - echo -e "\033[31mred foreground\033[0m default foreground (full reset)"
+    - echo -e "\033[41mred background\033[0m default background (full reset)"
+    # Symfony
+    - echo -e "\033[31mred foreground\033[39m default foreground (foreground reset)"
+    - echo -e "\033[41mred background\033[49m default background (background reset)"
+    - echo -e "\033[41mhttps://google.com\033[49m https://google.com (background reset)"
