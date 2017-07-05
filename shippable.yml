@@ -6,3 +6,4 @@ build:
     pull: false
   ci:
     - echo Link to https://www.shippable.com
+    - curl google.com
